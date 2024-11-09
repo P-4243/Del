@@ -1,89 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    font-family:Arial, sans-serif;
-}
-.training{
-    text-decoration: none;
-    position: relative; 
-    color:black;
-}
-.training span{
-    color: #0071D1;
-    font-family:poppins;
-    font-weight:600;
-    font-size: 3.2vw;
-    position: absolute;
-}
-.link-black {
-    color:black;
-    font-size: 4.8vw;
-}
-.left-logo{
-    height: 4.2vw; margin:3vh 2vw 0 1vw
-}
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem 0;
-    color: white;
-    padding: 20px;
-    text-align: left;
-}
-.nav {
-    background-color: #0071D1;
-    border-radius: 7em;
-    padding: 15px;
-    text-align: right;
-    width: 51em;
-}
-.nav a {
-    color:white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-}
-
-.nav ul{
-    list-style: none;
-    text-align: center;
-}
-.nav ul li{
-    display:inline-block;
-    position: relative;
-}
-.nav ul li ul.dropdown li{
-    display: block;
-    margin: 20px 10px;
-    margin-top: 1em;
-}
-.nav ul li ul.dropdown{
-    width: 18.5em;
-    border:1.8px solid #000000;
-    box-shadow:0 5px 10px rgba(0,0,0,0.3);    
-    background-color:white;
-    border-radius: 10px;
-    position:absolute;
-    z-index: 999;
-    display: none;
-    text-align:start;
-   
-}
-.nav ul li a:hover{
-    color: #262f3d;
-    border-radius: 4em;
-    font-weight:600;
-}
-.nav ul li:hover ul.dropdown{ 
-    display:block;
-}
 h4{
     text-align: center;
     justify-content: center;
     color: black;
-    margin-top:8vw;
+    margin-top:2vw;
 }
 .container{
    justify-content: center;
@@ -125,7 +45,7 @@ h4{
 }
 .partners-section {
     text-align: center;
-    padding: 5vw 0;
+    padding: 1vw 0;
     background-color: #fff;
 }
 
@@ -137,7 +57,7 @@ h4{
 
 .carousel {
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     overflow:hidden;
 }
@@ -183,16 +103,16 @@ h4{
 }
 
 .learn-section h2 {
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
     font-size: 2.4vw;
     color: #333;
 }
 .working{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-   padding: 0px 20vw 0px 20vw;
+    padding: 0px 20vw 0px 20vw;
     max-width: 100%;
-   justify-content: center;
+    justify-content: center;
     background: #6ab6fd;
     background-image: linear-gradient(white,white);
     background-size: 100% 30%;
@@ -209,7 +129,7 @@ h4{
     width: 100%;
     height: 25vw;
     display: block;
-margin:0 1vw 1vw;
+    margin:0 1vw 1vw;
 }
 
 .grid-item .overlay-text{
@@ -222,101 +142,18 @@ margin:0 1vw 1vw;
     text-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.8);
 }
 
-footer {
-    position: relative;
-    background-color: #f1f1f1;
-    padding: 20px 0;
-    border-top: 2px solid #ddd;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    max-width: 1100px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-footer .address {
-    margin-top: 6rem;
-    margin-left: -5rem;
-    width: 250px;
-    font-weight: 500;
-}
-
-footer .footer-logo {
-    margin-top: 2rem;
-    width: 250px;
-    margin-left: -5rem;
-}
-
-.footer-column {
-    flex: 1;
-    min-width: 190px;
-    margin: 10px 0;
-}
-
-.footer-column h3 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #666;
-}
-
-.footer-column ul li a {
-    text-decoration: none;
-    color: #666;
-    transition: color 0.3s;
-}
-
-.footer-column ul li a:hover {
-    color: #333;
-}
-
-.footer-column .social-icons {
-    display: flex;
-    
-    gap: 10px;
-}
-
-.footer-column .social-icons li {
-    margin-bottom: 0;
-}
-
-.footer-column .social-icons a {
-    color: #666;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-.footer-column .social-icons a:hover {
-    color: #333;
-}
-
 
 .bg{
     background-color: #6ab6fd;
      height:21.4vw;
-     margin-top:-25vw;
+     margin-top:-20vw;
 }
 
 .roundImg{
-    height:auto;
-    width:103%;
+    height:28vw;
+   
     margin-top:-15vh;
-    margin-left:-5vw;
+    margin-left:-15vw;
 }
 
 span{margin:0 8vm 0 0;
@@ -335,7 +172,7 @@ span{margin:0 8vm 0 0;
     font-size: 2vw;
     padding:3vw 0px;
     gap:25vw;
-    margin-top: 10vw;
+    margin:3vw;
    
 }
 .containers{
@@ -348,7 +185,7 @@ margin:5vw;
 }
 .elements{
     width:25vw;
-    height:22vw;
+    height:18vw;
     padding:1.5vw;
     text-align:center;
     box-shadow:0 0.2vw 1vw rgba(0,0,0,0.099);
